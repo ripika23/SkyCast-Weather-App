@@ -1,8 +1,8 @@
 # ☁️ SkyCast – Weather, Reimagined
 
-A modern, elegant, and responsive Flutter weather application that delivers real-time weather updates, city-based weather search, and a 6-day forecast through the Open-Meteo API.
+**SkyCast** is a modern Flutter weather application designed to deliver real-time weather updates, city-based weather search, and a 6-day weather forecast through the Open-Meteo API.
 
-SkyCast combines a clean interface, live weather information, and useful forecast insights to make checking the weather simple and enjoyable.
+Featuring an elegant interface, live weather information, and useful forecast insights, SkyCast makes checking the weather simple and enjoyable.
 
 <p align="center">
   <strong>Weather, Reimagined.</strong>
@@ -10,37 +10,37 @@ SkyCast combines a clean interface, live weather information, and useful forecas
 
 ---
 
-## 📱 App Screenshots
+## 📱 Application Screenshots
 
 ### 1. Home Dashboard
-
 Real-time weather information with a clean and modern interface.
 
 ![SkyCast Home Dashboard](screenshots/01-home-dashboard.png)
 
-### 2. Weather Insights and Forecast
-
-Displays humidity, wind speed, rainfall probability, and a 6-day weather forecast.
+### 2. Weather Forecast
+View upcoming weather conditions, temperatures, and rainfall probability.
 
 ![SkyCast Weather Forecast](screenshots/02-weather-forecast.png)
 
 ### 3. Celsius Temperature Display
-
-View weather forecasts in Celsius.
+View weather information in Celsius.
 
 ![Celsius Forecast](screenshots/03-celsius-forecast.png)
 
 ### 4. Fahrenheit Temperature Display
-
 Switch between Celsius and Fahrenheit effortlessly.
 
 ![Fahrenheit Forecast](screenshots/04-fahrenheit-forecast.png)
 
-### 5. Error Handling
+### 5. Weather Details
+Explore humidity, wind speed, and detailed forecast information.
 
-Displays a clear message when an invalid city is entered.
+![Weather Details](screenshots/05-weather-details.png)
 
-![Invalid City Error Handling](screenshots/05-error-handling.png)
+### 6. Error Handling
+Displays a helpful message when an invalid city is entered.
+
+![Invalid City Error](screenshots/06-error-handling.png)
 
 ---
 
@@ -55,7 +55,7 @@ Displays a clear message when an invalid city is entered.
 - 🌧️ **Rain Probability** – Shows the probability of rainfall.
 - 🔄 **Pull-to-Refresh** – Reload weather information.
 - ⚠️ **Error Handling** – Handles invalid city names and unavailable weather data.
-- 📱 **Responsive Interface** – Designed with a modern mobile-friendly layout.
+- 📱 **Responsive Interface** – Modern mobile-friendly design.
 
 ---
 
@@ -73,12 +73,12 @@ Displays a clear message when an invalid city is entered.
 
 ## 🌐 API Integration
 
-SkyCast uses the following free Open-Meteo services:
+SkyCast uses the free Open-Meteo services:
 
-- **Geocoding API:** Finds city coordinates using city names.
-- **Forecast API:** Retrieves current weather conditions and forecast information.
+- **Geocoding API** – Finds city coordinates using city names.
+- **Forecast API** – Retrieves current weather conditions and forecast information.
 
-API Provider: [Open-Meteo](https://open-meteo.com/)
+**API Provider:** [Open-Meteo](https://open-meteo.com/)
 
 No API key is required for the standard Open-Meteo API.
 
@@ -88,19 +88,17 @@ No API key is required for the standard Open-Meteo API.
 
 ### Prerequisites
 
-Make sure you have installed:
-
 - Flutter SDK
 - Dart SDK
 - Visual Studio Code or Android Studio
-- An internet connection
+- Internet connection
 
 ### Installation
 
 **1. Clone the repository**
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/SkyCast-Weather-App.git
+git clone https://github.com/ripika23/SkyCast-Weather-App.git
 ```
 
 **2. Navigate to the project directory**
@@ -128,18 +126,16 @@ flutter run
 ```text
 SkyCast-Weather-App/
 │
-├── android/
-├── ios/
 ├── lib/
 │   └── main.dart
 │
-├── web/
 ├── screenshots/
 │   ├── 01-home-dashboard.png
 │   ├── 02-weather-forecast.png
 │   ├── 03-celsius-forecast.png
 │   ├── 04-fahrenheit-forecast.png
-│   └── 05-error-handling.png
+│   ├── 05-weather-details.png
+│   └── 06-error-handling.png
 │
 ├── test/
 ├── pubspec.yaml
@@ -151,7 +147,7 @@ SkyCast-Weather-App/
 
 ## 🎯 Project Objective
 
-The objective of SkyCast is to develop a user-friendly weather application that integrates real-time API data with an attractive interface while demonstrating Flutter development, asynchronous programming, API integration, state management, and responsive UI design.
+The objective of SkyCast is to develop a user-friendly weather application that integrates real-time API data with an attractive interface while demonstrating Flutter development, API integration, asynchronous programming, and responsive UI design.
 
 ---
 
@@ -159,11 +155,11 @@ The objective of SkyCast is to develop a user-friendly weather application that 
 
 **Yekula Ripika**
 
-Computer Science and Engineering Student  
+Computer Science and Engineering  
 Vishnu Institute of Technology
 
 ---
 
 ## 📜 License
 
-This project is open-source and available under the MIT License.
+This project is available under the MIT License.
